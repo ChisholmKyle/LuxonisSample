@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "luxonis_3d_app"
+version = "0.1.0"
+description = "A Python app to use a Luxonis 3D camera with PySide6 and OpenCV"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+authors = [
+    { name="Your Name", email="your.email@example.com" }
+]
+dependencies = [
+    "python-osc",
+    "depthai",
+    "PySide6",
+    "opencv-contrib-python-headless",
+    "blobconverter",
+    "pathlib"
+]
